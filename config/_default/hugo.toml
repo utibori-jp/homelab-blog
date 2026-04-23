@@ -2,30 +2,51 @@
 # Hugo Configuration
 # See: https://gohugo.io/configuration/all/
 # -------------------------------------------------------------------------------------
+# website title (言語別に上書きされる)
+title = "homelab blog"
 
-# website title
-title = ""
 # Hostname (and path) to the root
-baseURL = "http://localhost:1313"
+baseURL = "https://utibori-jp.github.io/homelab-blog/"
+
 # theme list
 # theme = ["FixIt"] # enable in your site config file
-# determines default content language ["en", "zh-cn", "fr", "pl", ...]
-defaultContentLanguage = "en"
-# language code ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "en"
-# language name ["English", "简体中文", "Français", "Polski", ...]
-languageName = "English"
+
+# determines default content language
+defaultContentLanguage = "ja"
+
 # whether to include Chinese/Japanese/Korean
-hasCJKLanguage = false
+hasCJKLanguage = true
+
 # copyright description used only for seo schema
 copyright = ""
+
 # whether to use robots.txt
 enableRobotsTXT = true
+
 # whether to use git commit log
 enableGitInfo = true
+
 # whether to use emoji code
 enableEmoji = true
+
 # the main sections of a site
-# if set, the MainSections method on the Site object returns the given sections,
-# otherwise it returns the section with the most pages.
-# mainSections = ["posts"]
+mainSections = ["posts"]
+
+# -------------------------------------------------------------------------------------
+# Language Configuration
+# -------------------------------------------------------------------------------------
+[languages]
+  [languages.ja]
+    weight = 1
+    languageCode = "ja-JP"
+    languageName = "日本語"
+    title = "homelab blog"
+    [languages.ja.params]
+      description = "自宅サーバ運用の記録"
+  [languages.en]
+    weight = 2
+    languageCode = "en"
+    languageName = "English"
+    title = "homelab blog"
+    [languages.en.params]
+      description = "Notes on operating a home server"

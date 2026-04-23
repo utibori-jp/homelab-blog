@@ -1,0 +1,43 @@
+# -------------------------------------------------------------------------------------
+# Menu Configuration (日本語)
+# -------------------------------------------------------------------------------------
+
+[[main]]
+identifier = "archives"
+parent = ""
+pre = ""
+post = ""
+name = "アーカイブ"
+url = "/archives/"
+title = ""
+weight = 1
+[main.params]
+class = ""
+draft = false
+icon = "fa-solid fa-archive"
+type = ""
+divided = false
+
+[[main]]
+identifier = "categories"
+parent = ""
+pre = ""
+post = ""
+name = "カテゴリ"
+url = "/categories/"
+title = ""
+weight = 2
+[main.params]
+icon = "fa-solid fa-folder-tree"
+
+[[main]]
+identifier = "tags"
+parent = ""
+pre = ""
+post = ""
+name = "タグ"
+url = "/tags/"
+title = ""
+weight = 3
+[main.params]
+icon = "fa-solid fa-tags"

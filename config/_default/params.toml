@@ -145,7 +145,7 @@ mobileMode = "auto"
 # URL of the LOGO
 logo = ""
 # title name
-name = ""
+name = "🏠"
 # you can add extra information before the name (HTML format is supported), such as icons
 pre = ""
 # you can add extra information after the name (HTML format is supported), such as icons
@@ -156,7 +156,7 @@ typeit = false
 # FixIt 0.2.12 | NEW Header subtitle config
 [header.subtitle]
 # subtitle name
-name = ""
+name = "自宅サーバ運用の記録"
 # whether to use typeit animation for subtitle name
 typeit = false
 
