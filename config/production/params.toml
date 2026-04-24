@@ -1,26 +1,24 @@
-description = "This is my new Hugo FixIt site"
-keywords = ["Hugo", "FixIt"]
+description = "自宅サーバー運用の記録"
+keywords = ["homelab", "k3s", "ArgoCD", "GitOps", "Kubernetes"]
 
 [author]
-name = "Lruihao"
-email = ""
-link = "https://github.com/Lruihao"
-avatar = "https://lruihao.cn/images/avatar.jpg"
+  name = "utibori-jp"
+  email = ""
+  link = "https://github.com/utibori-jp"
+  avatar = ""
 
 [app]
-title = "Hugo FixIt Blog"
+  title = "homelab blog"
 
 [header]
-
-[header.title]
-logo = "/hugo-fixit-starter/images/fixit.min.svg"
+  [header.title]
+    logo = ""
 
 [home]
-
-[home.profile]
-enable = true
+  [home.profile]
+    enable = true
 
 [customPartials]
-head = [
-  "inject/fixit-docs-bookmark.html",
-]
+  head = [
+    "inject/fixit-docs-bookmark.html",
+  ]

@@ -1,1 +1,2 @@
-title = "Hugo FixIt Blog"
+title = "homelab blog (dev)"
+baseURL = "http://localhost:1313/"
