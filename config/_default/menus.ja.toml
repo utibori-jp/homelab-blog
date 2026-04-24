@@ -41,3 +41,13 @@ title = ""
 weight = 3
 [main.params]
 icon = "fa-solid fa-tags"
+
+[[main]]
+identifier = "about"
+parent = ""
+pre = ""
+post = ""
+name = "About"
+url = "/about/"
+title = ""
+weight = 5
