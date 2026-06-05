@@ -52,12 +52,13 @@ So first, let me give you a rough overview of my setup.
 The MiniPC runs Proxmox as its OS, and on top of that sit three Ubuntu Server VMs. Those three VMs together form a K3s cluster.
 
 {{< mermaid >}}
-``` mermaid
 graph TD
     subgraph home["🏠 Home network 192.168.0.0/24"]
         Router["Router"]
-        PC["Laptop"]
-        subgraph minipc["MiniPC (RAM 32GB / ¥40k)"]
+        subgraph laptop["Laptop"]
+            TF["Terraform<br/>(bpg/proxmox)"]
+        end
+        subgraph minipc["MiniPC (RAM 32GB)"]
             PVE["Proxmox VE 9.x<br/>192.168.0.100"]
             subgraph sdn["Proxmox SDN: k8sVnet (10.10.0.0/24, SNAT)"]
                 M["home-lab-1 (master)<br/>10.10.0.11<br/>4core / 6GB / 64GB"]
@@ -66,13 +67,17 @@ graph TD
             end
         end
     end
-    Router --- PC
+    Router --- laptop
     Router --- PVE
     PVE -. "SDN gateway 10.10.0.1" .- M
     M --- W1
     M --- W2
-    TF["Terraform<br/>(bpg/proxmox)"] -.->|create VMs / cloud-init| sdn
-```
+    TF -.->|create VMs / cloud-init| sdn
+
+    classDef hw fill:#fde2c4,stroke:#e08a3c,color:#333
+    classDef net fill:#d6e8fb,stroke:#4a90d9,color:#333
+    class laptop,minipc hw
+    class home,sdn net
 {{< /mermaid >}}
 
 The diagram looks a bit busy because of all the nesting, but it's simple once you read it from the outside in. The outermost layer is my home network (192.168.0.0/24), with the laptop and the MiniPC hanging off it. Inside the MiniPC, Proxmox is running, and inside that there's an isolated network (10.10.0.0/24) carved out with Proxmox SDN. The three K3s nodes live inside this isolated network and talk to the outside world through the SDN gateway (10.10.0.1).
