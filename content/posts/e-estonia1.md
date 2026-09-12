@@ -1,12 +1,12 @@
 ---
-title: "番外編 ~e-Estonia連載 2.Deep dive into e-Estonia~"
+title: "番外編 ~e-Estonia連載 2.Deep dive into e-Estonia①~"
 subtitle: ""
 date: 2026-09-05T00:00:00+09:00
 draft: true
 author:
-  name: ""
+  name: "Koki Uchibori"
   link: ""
-description: "e-Estoniaとは何か。X-RoadやデジタルIDといった技術的な仕組みを掘り下げつつ、それがどんな歴史的経緯で生まれ、普及してきたのかをたどる。"
+description: "e-Estonia連載の2本目。e-Estoniaとは何か。X-RoadやデジタルIDといった基盤技術を掘り下げつつ、それがどんな歴史的経緯で生まれ、普及してきたのかをたどる。"
 keywords: ["e-estonia", "x-road", "estonia", "digital-id", "e-residency"]
 license: ""
 comment: false

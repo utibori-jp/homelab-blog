@@ -1,13 +1,13 @@
 ---
-title: "番外編 ~E-Estonia連載　1. エストニアという国について~"
+title: "番外編 ~e-Estonia連載 1.エストニアという国について~"
 subtitle: ""
 date: 2026-09-05T00:00:00+09:00
 draft: true
 author:
-  name: ""
+  name: "Koki Uchibori"
   link: ""
-description: "E-Estonia連載の1本目。エストニアについて"
-keywords: ["estonia"]
+description: "e-Estonia連載の1本目。人口137万人の小国エストニアの地理・人口・歴史・言語をたどり、電子政府を語る前提となる国の輪郭をつかむ。"
+keywords: ["e-estonia", "estonia", "history", "baltic"]
 license: ""
 comment: false
 weight: 0

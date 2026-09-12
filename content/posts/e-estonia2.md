@@ -1,13 +1,13 @@
 ---
-title: "番外編 ~e-Estonia連載 2.Deep dive into e-Estonia②~"
+title: "番外編 ~e-Estonia連載 3.Deep dive into e-Estonia②~"
 subtitle: ""
 date: 2026-09-05T00:00:00+09:00
 draft: true
 author:
-  name: ""
+  name: "Koki Uchibori"
   link: ""
-description: "E-estoniaの説明"
-keywords: ["e-estonia", "x-road", "estonia", "security"]
+description: "e-Estonia連載の3本目。2007年のサイバー攻撃と2017年のROCA脆弱性という2つのインシデントから、e-Estoniaが可用性と検証可能性でシステムへの信頼をどう保つのかを読み解く。"
+keywords: ["e-estonia", "estonia", "security", "roca", "ksi", "data-embassy"]
 license: ""
 comment: false
 weight: 0
