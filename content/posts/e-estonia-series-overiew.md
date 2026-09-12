@@ -15,6 +15,7 @@ tags:
   - e-estonia
   - estonia
   - x-road
+  - e-japan
 categories:
   - estonia
 hiddenFromHomePage: false

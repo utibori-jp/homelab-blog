@@ -1,7 +1,7 @@
 ---
 title: "番外編 ~e-Estonia連載 2.Deep dive into e-Estonia①~"
 subtitle: ""
-date: 2026-09-05T00:00:00+09:00
+date: 2026-09-07T00:00:00+09:00
 draft: true
 author:
   name: "Koki Uchibori"

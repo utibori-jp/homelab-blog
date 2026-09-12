@@ -1,7 +1,7 @@
 ---
 title: "番外編 ~e-Estonia連載 7. なぜe-Estoniaとe-Japanは同じ時期に始まり、違う場所にいるのか~"
 subtitle: ""
-date: 2026-09-05T00:00:00+09:00
+date: 2026-09-11T00:00:00+09:00
 draft: false
 author:
   name: ""
