@@ -50,18 +50,17 @@ repost:
 
 ## 連載インデックス
 
-タイトル
-- エストニアという国について
-- Deep dive into e-Estonia①
-  - 歴史・思想・X-Roadなどの基盤技術
-- Deep dive into e-Estonia②
-  - e-Estoniaのセキュリティとの闘いについて
-- Deep dive into e-Japan①
-  - マイナンバー制度を軸に経緯と課題
-- Deep dive into e-Japan②
-- e-Estoniaとe-Japanのアーキテクチャ比較←ここはDeep Dive into e-Xのアーキテクチャを完成させたら書かねば、、、
-- なぜe-Estoniaとe-Japanは同じ時期に始まり、違う場所にいるのか
-- おまけ：エストニア観光記
+1. エストニアという国について
+2. Deep dive into e-Estonia①
+   - 歴史・思想・X-Roadなどの基盤技術
+3. Deep dive into e-Estonia②
+   - e-Estoniaのセキュリティとの闘いについて
+4. Deep dive into e-Japan①
+   - マイナンバー制度を軸に経緯と課題
+5. Deep dive into e-Japan②
+6. なぜe-Estoniaとe-Japanは同じ時期に始まり、違う場所にいるのか
+   - アーキテクチャの対応関係は冒頭の対比表にまとめ、各記事の比較を統合する
+7. おまけ：エストニア観光記
 
 最後横ぐし対応
 - 各MDから出典メモを拾う
