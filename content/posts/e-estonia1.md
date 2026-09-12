@@ -155,7 +155,7 @@ Hansapank（現Swedbank）は、1993年に電子バンキング（ATMや電話�
 そしてここで、前述の銀行と利害が一致した。IDカードによって、全国民が持ち、人の真正性を保証できる。それはまさに銀行がセキュアな二段階認証を行うために必要としていたものだった。
 また政府としても、自前で認証の仕組み（電子署名に必要なCA）を開発・運用し、さらにIDカードを運用していくことはコスト面で厳しかった。しかし、これらを銀行が肩代わりしてくれることになり、構想が現実的となった。
 
-政府は、銀行管理のCAに独占的な権限を付与し、電子署名に手書き署名と同等の法的効力を与える法律を成立させ、さらにIDカードおよびCAにかかる費用の一部の援助を行った。
+この認証局（CA）の役割を担ったのが、2001年に二大銀行（Hansapank・Ühispank）と二大通信（Eesti Telefon・EMT）が共同で設立したAS Sertifitseerimiskeskus（SK）である。IDカードの証明書は、この銀行・通信の共同会社が発行する。国の側は、電子署名に手書き署名と同等の法的効力を与える法律（2000年のデジタル署名法）を成立させ、住民登録に基づいて全国民にカードを配るという普遍性を担保し、費用の一部も負担した。技術と運用は民間が、法的効力と普遍性は国が持ち寄る。エストニアのIDカードは、最初から官民共同のインフラとして立ち上がったのである。
 
 #### バラバラなシステムを繋ぐ基盤としてX-Roadが生まれた
 
@@ -232,6 +232,7 @@ IDカードが「人の真正性」を担保する仕組みだとすれば、も
 - データ大使館：2017年6月20日にエストニア・ルクセンブルク間で協定署名、2018年初に稼働。世界初。 https://www.valitsus.ee/en/news/estonia-establish-worlds-first-data-embassy-luxembourg 、 https://en.wikipedia.org/wiki/Data_embassy
 - ROCA脆弱性（2017年）：2014年10月〜2017年10月に発行された約75万枚のIDカードの証明書を停止。エストニアは物理再発行ではなくオンライン証明書更新で対応。 https://www.ria.ee/en/media/742/download 、 https://en.wikipedia.org/wiki/ROCA_vulnerability
 - 銀行：Hansapankは1993年に電子バンキング（Telehansa）、1996年にインターネットバンキングを開始（Ühispankと並びエストニア初）。 https://en.wikipedia.org/wiki/Hansabank 、 https://www.riigikogu.ee/wpcms/wp-content/uploads/2018/08/IE-2017-Internet-banking-platform-final.pdf
+- IDカードの認証局（CA）AS Sertifitseerimiskeskus（SK、現SK ID Solutions）：2001年3月26日設立。設立時の出資は Hansapank・Eesti Ühispank・Eesti Telefon・EMT が各25%（後にSwedbank・SEB・Teliaへ）。国のIDカードの証明書を発行する信頼基盤を、銀行・通信の共同会社が担った。 https://www.skidsolutions.eu/news/as-sertifitseerimiskeskus-has-a-new-name/ 、 https://et.wikipedia.org/wiki/Sertifitseerimiskeskus
 
 ### 未確認（要追加調査）
 
