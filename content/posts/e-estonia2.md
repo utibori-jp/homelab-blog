@@ -7,7 +7,7 @@ author:
   name: "Koki Uchibori"
   link: ""
 description: "e-Estonia連載の3本目。2007年のサイバー攻撃と2017年のROCA脆弱性という2つのインシデントから、e-Estoniaが可用性と検証可能性でシステムへの信頼をどう保つのかを読み解く。"
-keywords: ["e-estonia", "estonia", "security", "roca", "ksi", "data-embassy"]
+keywords: ["roca", "ksi", "guardtime", "data-embassy", "cyberattack-2007", "id-card", "ria"]
 license: ""
 comment: false
 weight: 0
@@ -16,7 +16,9 @@ tags:
   - estonia
   - security
 categories:
-  - estonia
+  - 電子政府
+collections:
+  - e-estonia
 hiddenFromHomePage: false
 hiddenFromSearch: false
 hiddenFromRss: false

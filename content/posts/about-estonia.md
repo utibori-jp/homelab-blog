@@ -7,15 +7,16 @@ author:
   name: "Koki Uchibori"
   link: ""
 description: "e-Estonia連載の1本目。人口137万人の小国エストニアの地理・人口・歴史・言語をたどり、電子政府を語る前提となる国の輪郭をつかむ。"
-keywords: ["e-estonia", "estonia", "history", "baltic"]
+keywords: ["estonia", "estonian-history", "baltic", "tallinn", "estonian-language", "soviet-union"]
 license: ""
 comment: false
 weight: 0
 tags:
-  - e-estonia
   - estonia
 categories:
-  - estonia
+  - 電子政府
+collections:
+  - e-estonia
 hiddenFromHomePage: false
 hiddenFromSearch: false
 hiddenFromRss: false

@@ -7,17 +7,18 @@ author:
   name: "Koki Uchibori"
   link: ""
 description: "e-Estonia連載の2本目。e-Estoniaとは何か。X-RoadやデジタルIDといった基盤技術を掘り下げつつ、それがどんな歴史的経緯で生まれ、普及してきたのかをたどる。"
-keywords: ["e-estonia", "x-road", "estonia", "digital-id", "e-residency"]
+keywords: ["x-road", "id-card", "mobile-id", "smart-id", "e-residency", "sk-id-solutions", "cybernetica", "ria"]
 license: ""
 comment: false
 weight: 0
 tags:
   - e-estonia
   - estonia
-  - x-road
   - digital-id
 categories:
-  - estonia
+  - 電子政府
+collections:
+  - e-estonia
 hiddenFromHomePage: false
 hiddenFromSearch: false
 hiddenFromRss: false

@@ -2,22 +2,23 @@
 title: "番外編 ~e-Estonia連載 インデックス~"
 subtitle: ""
 date: 2026-09-05T00:00:00+09:00
-draft: false
+draft: true
 author:
   name: "Koki Uchibori"
   link: ""
 description: "e-Estonia連載のインデックス記事。エストニアという国からe-Estonia、e-Japan、そして両者の比較まで、連載全体の見取り図をまとめる。"
-keywords: ["e-estonia", "x-road", "estonia"]
+keywords: ["e-estonia", "e-japan", "estonia", "x-road", "my-number"]
 license: ""
 comment: false
 weight: 0
 tags:
   - e-estonia
-  - estonia
-  - x-road
   - e-japan
-categories:
   - estonia
+categories:
+  - 電子政府
+collections:
+  - e-estonia
 hiddenFromHomePage: false
 hiddenFromSearch: false
 hiddenFromRss: false
@@ -61,14 +62,3 @@ repost:
 6. なぜe-Estoniaとe-Japanは同じ時期に始まり、違う場所にいるのか
    - アーキテクチャの対応関係は冒頭の対比表にまとめ、各記事の比較を統合する
 7. おまけ：エストニア観光記
-
-最後横ぐし対応
-- 各MDから出典メモを拾う
-- ヘッダーの著者とかそういうのをちゃんと埋める
-- タイトル修正する
-- 連載インデックスページ整理する
-
-
-- e-Estoniaの未来について←力尽きつつあるからここは書かないかな
-  - e-Estoniaもいずれレガシーシステムとなる
-  - X-Roadに接続したシステムで、システム移行が行われたのか
