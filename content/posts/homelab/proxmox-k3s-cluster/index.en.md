@@ -3,6 +3,8 @@ title: "A Tour of My Home Lab Built with Proxmox + K3s"
 subtitle: ""
 date: 2026-05-01T00:00:00+09:00
 draft: false
+aliases:
+  - "/posts/proxmox-k3s-cluster/"
 author:
   name: ""
   link: ""

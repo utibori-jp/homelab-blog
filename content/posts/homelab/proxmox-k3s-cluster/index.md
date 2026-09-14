@@ -3,6 +3,8 @@ title: "Proxmox + K3sで作った自宅Homelabを紹介する"
 subtitle: ""
 date: 2026-05-01T00:00:00+09:00
 draft: false
+aliases:
+  - "/posts/proxmox-k3s-cluster/"
 author:
   name: ""
   link: ""
