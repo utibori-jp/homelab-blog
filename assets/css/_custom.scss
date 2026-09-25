@@ -2,3 +2,42 @@
 // Custom style
 // 自定义样式
 // ==============================
+
+// Compact table for long incident lists (e.g. posts/e-estonia-series/e-estonia2)
+// Selectors mirror the theme's `.single .content .table-wrapper > table` to win on specificity.
+.single .content .table-wrapper > table.incident-table {
+  font-size: 0.8rem;
+  line-height: 1.5;
+
+  th,
+  td {
+    padding: 0.35rem 0.6rem;
+    vertical-align: top;
+  }
+
+  // Date and duration columns stay on one line
+  th:nth-child(-n + 2),
+  td:nth-child(-n + 2) {
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+
+  // The theme only stripes tables without a class, so restore it here
+  tbody tr:nth-child(odd) {
+    background: #f9f9f9;
+  }
+
+  tbody tr:hover {
+    background: #f4f4f4;
+  }
+
+  [data-theme='dark'] & {
+    tbody tr:nth-child(odd) {
+      background-color: #2d333c;
+    }
+
+    tbody tr:hover {
+      background-color: #333a44;
+    }
+  }
+}
