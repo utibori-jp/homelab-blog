@@ -4,7 +4,7 @@ subtitle: ""
 date: 2026-09-14T00:00:00+09:00
 draft: false
 author:
-  name: "Koki Uchibori"
+  name: "koki uchibori"
   link: ""
 description: "e-Estonia連載のインデックス記事。エストニアという国からe-Estonia、e-Japan、そして両者の比較まで、連載全体の見取り図をまとめる。"
 keywords: ["e-government", "e-estonia", "e-japan", "estonia", "x-road", "my-number"]

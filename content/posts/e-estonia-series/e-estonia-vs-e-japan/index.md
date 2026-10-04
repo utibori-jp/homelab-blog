@@ -4,7 +4,7 @@ subtitle: ""
 date: 2026-09-11T00:00:00+09:00
 draft: true
 author:
-  name: "Koki Uchibori"
+  name: "koki uchibori"
   link: ""
 description: "e-Estonia連載の6本目。同じ時期に電子政府を始めたエストニアと日本が、なぜ逆の設計に至り、違う場所にいるのか。法律・拒否権アクター・信頼・実利という観点から両者を比較し、e-Japanの進む道を考える。"
 keywords: ["e-estonia", "e-japan", "my-number", "x-road", "id-card", "juki-net", "once-only"]

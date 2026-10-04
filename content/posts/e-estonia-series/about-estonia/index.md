@@ -4,7 +4,7 @@ subtitle: ""
 date: 2026-09-15T00:00:00+09:00
 draft: false
 author:
-  name: "Koki Uchibori"
+  name: "koki uchibori"
   link: ""
 description: "e-Estonia連載の1本目。人口136万人の小国エストニアの地理・人口・歴史・言語をたどり、電子政府を語る前提となる国の輪郭をつかむ。"
 keywords: ["estonia", "estonian-history", "baltic", "tallinn"]
