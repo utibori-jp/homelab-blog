@@ -2,7 +2,7 @@
 title: "番外編 ~e-Estonia連載 6.e-Estonia vs e-Japan~"
 subtitle: ""
 date: 2026-09-28T00:00:00+09:00
-draft: true
+draft: false
 author:
   name: "koki uchibori"
   link: ""
